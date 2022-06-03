@@ -10,4 +10,20 @@
 </div>
 
 <form [formGroup]="checkoutForm">
+  <div>
+    <label for="name">
+      Name
+    </label>
+    <input id="name" type="text" formControlName="name">
+  </div>
+
+  <div>
+    <label for="address">
+      Address
+    </label>
+    <input id="address" type="text" formControlName="name">
+  </div>
+
   <button type="button" type="submit">Purchase</button>
+  
+</form>
